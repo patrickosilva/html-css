@@ -1,0 +1,137 @@
+@charset "UTF-8";  
+
+@font-face {
+    font-family:'idroid';
+    src: url('pacote-projeto-d010/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+header {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+    background-color: darkgreen;
+    box-shadow: 10px 10px 10px black ;
+    padding: 7px 20px;
+}
+
+nav {
+    text-align: left;
+    text-decoration: none;
+    color: white;
+}
+
+a::after {
+    text-decoration: none;
+    color: white;
+    content: '\1F517';
+}
+
+body {
+    background-color: lightgreen;
+}
+
+main {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px black;
+}
+
+article {
+    font-family: 'idroid', Courier, monospace
+}
+
+h2 {
+    color: darkgreen;
+}
+
+h3 {
+    color: darkgreen;
+    background-color: rgba(144, 238, 144, 0.503);
+}
+
+div {
+    font-family: 'Courier New', Courier, monospace;
+    width: 80%;
+    margin: 20px auto;
+    background-color: lightgreen;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px black;
+}
+
+h4 {
+    width: 80%;
+    margin: 0px ;
+    background-color: darkgreen;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px black;
+    text-align: left;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+}
+
+picture {
+    display: block;
+    text-align: center;
+}
+
+a#sozinho {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+p {
+    text-indent: 30px;
+    text-align: justify;
+}
+
+p#cabeça {
+    text-align: center;
+}
+
+ul {
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
+
+div.video {
+    background-color: darkgreen;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 58%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
